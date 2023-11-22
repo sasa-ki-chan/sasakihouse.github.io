@@ -83,6 +83,8 @@ jobs:
     runs-on: ubuntu-latest
     name: Deploy
     steps:
-      - name: Deploy to GitHub Pages
+      - name: Astro Deploy
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: withastro/action@v1.0.3
+
+
